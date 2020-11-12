@@ -1,5 +1,4 @@
 imap jk <Esc>
-nmap <S-Enter> O<Esc>
 set textwidth=180
 set nocompatible
 set ignorecase
@@ -14,13 +13,13 @@ set smartindent
 set formatoptions=tcq
 syntax on
 set spelllang=en
-set spellfile=/usr/share/dict/words.utf-8.add  " location may vary, change file to end in <file>.utf-8.add
+"set spellfile=/usr/share/dict/words.utf-8.add  " location may vary, change file to end in <file>.utf-8.add
 set ruler
 set modeline
 set modelines=5
 filetype plugin indent on
 let g:tex_flavor='latex'
-set dir=~/tmp//  " Where to make tmp files for vim so they don't end up in git repos
+set dir=~/.tmp//  " Where to make tmp files for vim so they don't end up in git repos
 " Load all plugins now.
 " Plugins need to be added to runtimepath before helptags can be generated.
 packloadall

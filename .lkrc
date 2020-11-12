@@ -1,0 +1,3 @@
+alias k="kubectl"
+alias please="sudo"
+alias ll="ls -alh --color=yes"
